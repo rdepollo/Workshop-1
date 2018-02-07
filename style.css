@@ -1,0 +1,118 @@
+/* ADD YOUR CSS STYLES BELOW */
+
+
+/* CCS @MEDIA SCREEN 4 LATER */
+
+
+/* DON'T DELETE THIS */
+
+#flag-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* Clear Float */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.smallcolumn {
+  width: 16.66%;
+  height: 100%;
+  float: left;
+}
+
+.bigcolumn {
+  width: 33.33%;
+  height: 100%;
+  background-color: white;
+  float: left;
+}
+
+.box {
+  width: 100%;
+  height: 33.33%;
+  background-color: white;
+  float: left;
+  background-color: yellow;
+}
+
+.smallbox {
+  width: 33.33%;
+  height: 100%;
+  background-color: grey;
+  float: left;
+}
+
+.smallestbox {
+  width: 50%;
+  height: 100%;
+  background-color: grey;
+  float: left;
+}
+
+.red {
+  background-color: #f2667f;
+}
+
+.white {
+  background-color: white;
+}
+
+.teal {
+  background-color: #038c8c;
+}
+
+.blue {
+  background-color: #025e73;
+}
+
+@media screen and (max-width: 550px) and (min-width: 0px) {
+  .bigcolumn {
+    width: 100%;
+    height: 33.33%;
+  }
+  .smallcolumn {
+    width: 100%;
+    height: 16.66%;
+  }
+  .box {
+    width: 33.33%;
+    height: 100%;
+  }
+  .smallbox {
+    width: 100%;
+    height: 33.33%;
+  }
+}
